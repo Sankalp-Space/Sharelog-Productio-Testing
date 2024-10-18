@@ -4,7 +4,7 @@ import * as am5xy from "@amcharts/amcharts5/xy";
 import * as am5percent from "@amcharts/amcharts5/percent";
 import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 
-interface PortfolioProps {
+/*interface PortfolioProps {
     PAndL: string;
     BestStrat: string;
     NumTrads: string;
@@ -14,19 +14,20 @@ interface PortfolioProps {
     commodity: number;
     currency: number;
     splineData: Array<{ date: string; balance: number }>;
-}
+}*/
 
-interface InfoCardProps {
+/*interface InfoCardProps {
     title: string;
     content: string;
- }
+ } 
+    */
   
-  const InfoCard: React.FC<InfoCardProps> = ({ title, content }) => (
+  /*const InfoCard: React.FC<InfoCardProps> = ({ title, content }) => (
     <div className="w-full md:w-5/12 m-2 p-3 bg-white shadow rounded-lg">
       <h6 className="pl-3">{title}</h6>
       <h6 className="pl-3 text-gray-600">{content}</h6>
     </div>
-  );
+  );*/
   
 
 
